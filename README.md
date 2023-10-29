@@ -1,11 +1,16 @@
-# CSC303-FA23-Program-6.1
+# CSC303-FA23-Program-7.1
 
-Add the following to the QueueInterface:
+Extra credit opportunity.
 
- 	int getSize();
+![image](https://github.com/bryanosborne/CSC303-FA23-Program-7.1-Stub/assets/22990921/bf0e7d77-fe2d-4f31-914f-0c12daec5be3)
 
-Implement the new method in the LinkedQueue class, modifying as needed to support it’s use.
+Create a new class, MyExponentClass that contains three different methods to raise a base to an exponent in different ways:
 
-Modify the Boolean isEmpty() method to use the new int getSize() method.
+- One that uses the Math.pow() method
 
-Write test code in your driver program sufficient to test the new method and ensure that it works.
+- One that uses an iterative solution
+
+- One that uses a recursive solution
+
+Write a driver (test) program that calculates raising a number to the largest number possible power and time the calculations to see if you can detect a difference.
+
